@@ -123,6 +123,10 @@ color: black;
 #mainimg1{
     grid-area: img1;
     width: 100%;
+    /* animacion */
+    animation-name: rotation;
+    animation-duration: 2s;
+    position: relative;
 }
 #mainimg2{
     grid-area: img2;
@@ -330,3 +334,22 @@ footer{
     justify-content: center;
 }
 /* END PRODUCTOS */
+
+/* animaciones */
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
