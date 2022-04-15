@@ -11,6 +11,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822),rgba(47, 77, 41, 0.986));
 }
 
 nav{
@@ -31,6 +32,9 @@ nav{
 
 .headerli{
     list-style: none;
+}
+.headerli:hover{
+    background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822),rgba(47, 77, 41, 0.986));  
 }
 
 a{
