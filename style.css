@@ -11,6 +11,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* gradiente */
     background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822),rgba(47, 77, 41, 0.986));
 }
 
@@ -34,7 +35,11 @@ nav{
     list-style: none;
 }
 .headerli:hover{
-    background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822),rgba(47, 77, 41, 0.986));  
+    /* gradiente */
+    background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822),rgba(47, 77, 41, 0.986));
+    /* transformacion */ 
+    transform: scale(1.50);
+    transition: 2s; 
 }
 
 a{
@@ -45,6 +50,12 @@ color: black;
 .headerimg{
     width: 100px;
     height: 100px;
+    
+}
+.headerimg:hover{
+    /* transformacion */
+    transform: scale(1.2);
+    transition: 2s;
 }
 
 /* END HEADER */
