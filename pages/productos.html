@@ -6,36 +6,83 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>- Growshop -</title>
         <link rel="shortcut icon" href="../ico.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="../style.css">
-        <link href='https://css.gg/instagram.css' rel='stylesheet'> 
-        <link href='https://css.gg/youtube.css' rel='stylesheet'>
-        <link href='https://css.gg/facebook.css' rel='stylesheet'>
-        <link href='https://css.gg/phone.css' rel='stylesheet'>
-        <link href='https://css.gg/mail.css' rel='stylesheet'>
-        <link href='https://css.gg/pin.css' rel='stylesheet'>
     </head>
 <body>
     <header>
-        <nav>
-            <ul class="headerul">
-                <a href="../index.html"><img class="headerimg" src="../images/growing seed logo.jpg"></a>
-                <li class="headerli"><a href="../index.html">Inicio</a></li>
-                <li class="headerli"><a href="./productos.html">Productos</a></li>
-                <li class="headerli"><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" class="bg-success p-2" style="--bs-bg-opacity: .5;" class="container-fluid">
+            <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><a href="../index.html"><img class="headerimg" src="../images/growing seed logo.jpg"></a></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03" >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </div>
+          </div>
         </nav>
     </header>
     <main>
-        <section id="imgproductos">
-            <img class="imgprodu" src="../images/trabajando.jpg" alt="groushop">
+        <section >
+            <img src="../images/nuestros productos.jpg" class="rounded mx-auto d-block" class="img-fluid" alt="nuestrosproductos">        
         </section>
-        <section class="politics_text">
-            <h2>ESTAMOS TRABAJANDO</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, necessitatibus nesciunt laudantium repellat ducimus atque. Dolorem perspiciatis eum deserunt impedit assumenda, est quos culpa rem a tempore debitis, laboriosam officiis quaerat facilis nobis repellendus. Nemo ea cupiditate nesciunt dolorem facilis, omnis illum veritatis, nihil atque quod culpa iusto error repudiandae quam, debitis quia maiores maxime tenetur quaerat eum. Aliquam culpa rem quibusdam amet dolorem, doloremque earum accusamus aliquid pariatur ut, aperiam dolor neque, dignissimos hic blanditiis sit laudantium! Temporibus, dignissimos molestias. Illo modi exercitationem eos incidunt maxime aliquid, voluptate molestiae molestias corrupti cumque id dignissimos tempora nesciunt vel! Doloremque dolores quasi inventore voluptatem tempora, rerum est animi alias at incidunt, voluptate non soluta! Vel vitae dignissimos esse a modi, illo, numquam qui fugiat dicta, perspiciatis ex? Ex quia fuga neque sequi ducimus ratione, nesciunt doloribus voluptates illo error ipsam, reprehenderit itaque. Itaque esse, facere consectetur dolorem omnis cupiditate iusto a ad sed pariatur, neque consequuntur obcaecati id assumenda placeat odit veritatis alias optio architecto quisquam ab praesentium aspernatur unde natus! Iste, quibusdam? Quo nostrum libero necessitatibus, beatae dolor eligendi explicabo voluptas ipsam a aspernatur inventore, enim facilis dolores! Fugiat praesentium architecto voluptatem, maxime dolorem nulla dolor placeat soluta at voluptate?</p>
-        </section>
-            <a class="return" href="../index.html">Volver a página principal</a>
+        <article>
+            <div class="container" class="bg-success p-2" style="--bs-bg-opacity: .5;" class="container-fluid">
+                <div class="row row-cols-4">
+                  <div class="col">
+                      <img id="products1" src="../images/productos1.jpg" class="img-thumbnail" alt="...">
+                      <h4 class="text-center bg-success --bs-bg-opacity">OFERTA</h4>
+                <form action="">
+                    <select name="cantidad" required>
+                        <option value="" hidden selected>Selecciona la cantidad</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <button type="submit" class="btn btn-success">Agregar al carrito</button>
+                </form>
+                </div>
+                  <div class="col"><img id="products2" src="../images/productos2.jpg" class="img-thumbnail" alt="...">
+                    <h4 class="text-center bg-danger --bs-bg-opacity">LIQUIDACIÓN</h4>
+              <form action="">
+                  <select name="cantidad" required>
+                      <option value="" hidden selected>Selecciona la cantidad</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                  </select>
+                  <button type="submit" class="btn btn-success">Agregar al carrito</button>
+                </div>
+                  <div class="col"><img id="products3" src="../images/productos3.jpg" class="img-thumbnail" alt="...">
+                    <h4 class="text-center bg-success --bs-bg-opacity">OFERTA</h4>
+                  <select name="cantidad" required>
+                      <option value="" hidden selected>Selecciona la cantidad</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                  </select>
+                  <button type="submit" class="btn btn-success">Agregar al carrito</button>
+              </form>
+              </div> 
+        </article>
     </main>
-    <footer>
+    <footer class="p-3 mb-2 bg-success text-black list-unstyled" style="--bs-bg-opacity: .7;">
         <div id="footer__title">
             <h3 >Navegación</h3>
         </div>
@@ -44,17 +91,18 @@
         </div>    
         <div id="footer__inicio">
             <ul>
-                <li class="footer__"><a href="../index.html">Inicio</a></li>
+                <li class="footer__"><a href="index.html">Inicio</a></li>
                 <li class="footer__"><a href="/pages/productos.html">Productos</a></li>
             </ul>
         </div>
         <div id="footer__redes">
             <ul class="foot_support">
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-                <li><a href="../pages/privacidad.html">Política de privacidad</a></li>
-                <li><a href="../pages/Devoluciones.html">Política de devoluciones</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/privacidad.html">Política de privacidad</a></li>
+                <li><a href="./pages/Devoluciones.html">Política de devoluciones</a></li>
             </ul>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

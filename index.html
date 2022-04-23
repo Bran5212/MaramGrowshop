@@ -17,15 +17,7 @@
 </head>
 <body>
     <header>
-<!--         <nav>
-            <ul class="headerul">
-                <a href="index.html"><img class="headerimg" src="./images/growing seed logo.jpg"></a>
-                <li class="headerli"><a href="index.html">Inicio</a></li>
-                <li class="headerli"><a href="./pages/productos.html">Productos</a></li>
-                <li class="headerli"><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" class="bg-success p-2" style="--bs-bg-opacity: .2;" class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" class="bg-success p-2" style="--bs-bg-opacity: .5;" class="container-fluid">
     <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,11 +36,19 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
   </div>
 </nav>
+
+<!--         <nav>
+            <ul class="headerul">
+                <a href="index.html"><img class="headerimg" src="./images/growing seed logo.jpg"></a>
+                <li class="headerli"><a href="index.html">Inicio</a></li>
+                <li class="headerli"><a href="./pages/productos.html">Productos</a></li>
+                <li class="headerli"><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav> -->
     </header>
     <main>
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -83,10 +83,34 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <div class="d-flex justify-content-evenly p-3 mb-2 bg-success text-black list-unstyled" style="--bs-bg-opacity: .7;">
-              <li>Envios a todo el pais</li>
+          <div class="d-flex justify-content-evenly p-3 mb-2 bg-success text-light list-unstyled data__set" style="--bs-bg-opacity: .7;">
+            <div class="container">
+              <div class="row row-cols-3">
+                <div class="col">Paga como quieras</div>
+                <div class="col">Envios a todo el pais</div>
+                <div class="col">Pedi por whatsapp</div>
+                <div class="col">Tarjetas de crédito o efectivo</div>
+                <div class="col">¡De Banfield, a donde estes!</div>
+                <div class="col">Realizá tu pedido por whatsapp</div>
+              </div>
+            </div> 
+            
+            <!--  <li>Envios a todo el pais</li>  
               <li>Paga como quieras</li>
-              <li>Pedi por whatsapp</li>
+              <li>Pedi por whatsapp</li> -->
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="/images/mainimg1.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="/images/mainimg2.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="/images/mainimg3.jpg" alt="">
+            </div>
+          </div>
         </div>
     </main>
     <!-- <main class="main__index">
@@ -108,7 +132,7 @@
         </div>
     </main> -->
     <aside>
-        <div class="main__aside p-3 mb-2 bg-success text-black" style="--bs-bg-opacity: .5;" >
+        <div class="main__aside p-3 mb-2 bg-success text-white" style="--bs-bg-opacity: .5;" >
             <h2 id="h2__aside">NUESTRO NEWSLETTER</h2>
             <P id="p__aside">Conocé las mejores ofertas antes que nadie</P>
         <form class="d-flex flex-column bd-highlight mb-3">
