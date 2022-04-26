@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,300&display=swap");
+/* font-family: 'Anton', sans-serif;
+   font-family: 'Roboto', sans-serif; */
+header {
+  font-size: 25px;
+  background-color: rgba(47, 77, 41, 0.986);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* gradiente */
+  background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822), rgba(47, 77, 41, 0.986)); }
+  header nav {
+    width: 100%; }
+    header nav .main__index {
+      background-color: rgba(50, 146, 37, 0.822); }
+      header nav .main__index .headerul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Roboto', sans-serif; }
+        header nav .main__index .headerul .headerli {
+          list-style: none; }
+          header nav .main__index .headerul .headerli:hover {
+            /* gradiente */
+            background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822), rgba(47, 77, 41, 0.986));
+            /* transformacion */
+            transform: scale(1.5);
+            transition: 2s; }
+
+footer {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  justify-content: center;
+  grid-template-areas: "nav contacto" "inicio redes"; }
+  footer #footer__title {
+    grid-area: nav;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif; }
+    footer #footer__title #footer_contact {
+      grid-area: contacto;
+      font-size: 25px;
+      font-family: 'Anton', sans-serif; }
+      footer #footer__title #footer_contact #footer__redes {
+        grid-area: redes; }
+        footer #footer__title #footer_contact #footer__redes .foot_support {
+          list-style: none;
+          font-family: 'Roboto', sans-serif;
+          font-size: 20px; }
+        footer #footer__title #footer_contact #footer__redes #footer__inicio {
+          grid-area: inicio; }
+          footer #footer__title #footer_contact #footer__redes #footer__inicio .footer__ {
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif; }
