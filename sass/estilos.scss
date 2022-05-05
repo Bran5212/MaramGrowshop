@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,300&display=swap');
+
+// Map
+$map: (
+    color1: rgba(0, 128, 0, 0.616),
+    color2: rgba(47, 77, 41, 0.986)
+);
+
+// Mixins
+@mixin tamaño () {
+    width: 450px;
+    height: 350px;
+}
+
+@import "header.scss";
+@import "footer.scss";
+@import "contacto.scss"

@@ -1,0 +1,14 @@
+
+header {
+    font-size: 25px;
+    background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822),rgba(47, 77, 41, 0.986));
+    .headerimg{
+        width: 100px;
+        height: 100px;
+        &:hover{
+            /* transformacion */
+            transform: scale(1.2);
+            transition: 2s;
+        }
+    }
+}

@@ -12,7 +12,7 @@ header{
     justify-content: space-between;
     align-items: center;
     /* gradiente */
-    background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822),rgba(47, 77, 41, 0.986));
+background-image: linear-gradient(to top, rgba(50, 146, 37, 0.822),rgba(47, 77, 41, 0.986));    
 }
 
 nav{
@@ -47,11 +47,7 @@ text-decoration: none;
 color: black;
 }
 
-.headerimg{
-    width: 100px;
-    height: 100px;
-    
-}
+
 .headerimg:hover{
     /* transformacion */
     transform: scale(1.2);
@@ -106,6 +102,13 @@ color: black;
     font-family: 'Roboto', sans-serif;
 }
 
+.data__set{
+    font-family: 'Anton', sans-serif;
+    font-size: medium;
+    color: white;
+    display: flex;
+    align-items: center;
+}
 
 .divmain3{
     display: grid;
@@ -324,15 +327,35 @@ footer{
 /* ******END devoluciones/privacidad.html***** */
 
 /* MAIN PRODUCTOS */
-
-.imgprodu{
-    width: 50%;
+#products1{
+    width: 100%;
+    height: 60%;
+}
+#products1:hover{
+    transform: scale(0.95);
+}
+#products2{
+    width: 100%;
+    height: 60%;
+}
+#products2:hover{
+    transform: scale(0.95);
+}
+#products3{
+    width: 100%;
+    height: 60%;
+}
+#products3:hover{
+    transform: scale(0.95);
+}
+#products4{
+    width: 100%;
+    height: 60%;
+}
+#products4:hover{
+    transform: scale(0.95);
 }
 
-#imgproductos{
-    display: flex;
-    justify-content: center;
-}
 /* END PRODUCTOS */
 
 /* animaciones */
