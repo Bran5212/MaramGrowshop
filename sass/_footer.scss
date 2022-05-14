@@ -1,7 +1,7 @@
-footer {
-    text-decoration: none;
-    list-style: none;
-    color: black  !important;
+//estilos del footer//
+
+
+footer{
     display: grid;
     grid-template-rows: repeat(2, 1fr) ;
     grid-template-columns: repeat(2, 1fr);
@@ -10,35 +10,29 @@ footer {
     grid-template-areas:
     "nav contacto"
     "inicio redes";
-    #footer__title {
+    #footer__title{
         grid-area: nav;
         font-size: 25px;
         font-family: 'Anton', sans-serif;
-    }
     #footer_contact{
         grid-area: contacto;
         font-size: 25px;
         font-family: 'Anton', sans-serif;
-    }
     #footer__redes{
         grid-area: redes;
         .foot_support{
             list-style: none;
             font-family: 'Roboto', sans-serif;
-            font-size: 20px;
-        }
-    }
-    
+                font-size: 20px;
+            }
     #footer__inicio{
         grid-area: inicio;
         .footer__{
             list-style: none;
             font-size: 20px;
             font-family: 'Roboto', sans-serif;
-            color: black;
-            text-decoration: none;
-            list-style: none;
-        
+        }   
+        }
         }
     }
 }
