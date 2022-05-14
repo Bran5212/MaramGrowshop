@@ -1,5 +1,5 @@
 {
-  "name": "growproyect2.0---copia",
+  "name": "growproyect2.0",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/Bran5212/MaramGrowshop.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,6 +21,6 @@
   "homepage": "https://github.com/Bran5212/MaramGrowshop#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }
